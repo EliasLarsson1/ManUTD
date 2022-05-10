@@ -117,7 +117,21 @@ h2 {
 }
 
 .button {
-
+  border: solid 4px black;
+  width: 10%;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+.knappar {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.stats {
+  font-size: 5vh;
 }
 /* Drop down style ---------------------------------------- */
 
@@ -231,4 +245,8 @@ h2 {
 }
 .number1 {
   text-align: center;
+}
+.map {
+  width: 60vw;
+  height: 50vh;
 }
