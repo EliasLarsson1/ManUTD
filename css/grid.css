@@ -1,15 +1,17 @@
+/*my gridinstructions*/
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: minmax(40px, auto);
   grid-gap: 2em;
 }
-
+/*header*/
 header {
   grid-column: 1/-1;
   grid-row: 1/2;
 }
 
+/*titles*/
 .number1 {
   grid-column: 3/4;
   grid-row: 1/2;
@@ -20,21 +22,36 @@ header {
   grid-row: 2/3;
 }
 
-.bild1 {
-  grid-column: 1/3;
-  grid-row: 3/4;
-}
-
-.text2 {
-  grid-column: 4/6;
-  grid-row: 3/4;
-}
-
 .title2 {
   grid-column: 2/5;
   grid-row: 4/5;
 }
 
+.karta {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+
+.titlemid {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+.titleattack {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.titlegoal {
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+
+.titledef {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+/*images*/
 .bild2 {
   grid-column: 1/3;
   grid-row: 5/6;
@@ -59,39 +76,25 @@ header {
   grid-column: 1/3;
   grid-row: 4/5;
 }
-.text3 {
-  grid-column: 4/5;
-  grid-row: 5/7;
+
+.bild1 {
+  grid-column: 1/3;
+  grid-row: 3/4;
 }
 
-.fot1 {
-  grid-column: 1/-1;
-  grid-row: 8/9;
-}
-.fot2 {
-  grid-column: 1/-1;
-  grid-row: 8/9;
-}
-.karta {
-  grid-column: 3/4;
-  grid-row: 6/7;
-}
-.map {
-  grid-column: 2/5;
-  grid-row: 7/8;
-}
 .dropbtn {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.knappar {
-  grid-column: 1/-1;
-  grid-row: 2/3;
+/*text*/
+.text2 {
+  grid-column: 4/6;
+  grid-row: 3/4;
 }
 
-.titleattack {
-  grid-column: 3/4;
-  grid-row: 3/4;
+.text3 {
+  grid-column: 4/5;
+  grid-row: 5/7;
 }
 
 .attack {
@@ -99,24 +102,9 @@ header {
   grid-row: 4/5;
 }
 
-.titlemid {
-  grid-column: 3/4;
-  grid-row: 5/6;
-}
-
 .goal {
   grid-column: 4/6;
   grid-row: 5/6;
-}
-
-.titlegoal {
-  grid-column: 3/4;
-  grid-row: 7/8;
-}
-
-.titledef {
-  grid-column: 3/4;
-  grid-row: 6/7;
 }
 
 .textdef {
@@ -128,7 +116,28 @@ header {
   grid-column: 4/6;
   grid-row: 7/8;
 }
+/*footer*/
+.fot1 {
+  grid-column: 1/-1;
+  grid-row: 8/9;
+}
+.fot2 {
+  grid-column: 1/-1;
+  grid-row: 8/9;
+}
+/*map*/
+.map {
+  grid-column: 2/5;
+  grid-row: 7/8;
+}
 
+/*links to players.html*/
+.knappar {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+}
+
+/*stats*/
 .cr7stats {
   grid-column: 2/3;
   grid-row: 4/5;
@@ -145,54 +154,121 @@ header {
   grid-column: 2/3;
   grid-row: 7/8;
 }
-@media (max-width:1000px) {
+/*media quarry*/
+@media (max-width:600px) {
   .container {
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 0.15fr 0.7fr 1.2fr 1.2fr 1.5fr 0.4fr;
-    grid-gap: 4vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr 1fr 1fr 0.4fr;
+    grid-gap: 2vw;
    }
 
    header {
      grid-column: 1/-1;
      grid-row: 1/2;
    }
-
-   .one {
-     grid-column: 2/6;
-     grid-row: 2/3;
-   }
-
-   .three {
-     grid-column: 1/-1;
-     grid-row: 3/4;
-   }
-
-   .five {
-     grid-column: 1/-1;
-     grid-row: 4/5;
-   }
-
-   .six {
-     display: none;
-   }
-
-   .seven {
-     grid-column: 1/-1;
-     grid-row: 5/6;
-   }
-
-   .eight {
-     grid-column: 1/-1;
-     grid-row: 6/7;
-   }
+.number1 {
+  grid-column: 2/5;
+  grid-row: 1/2;
 }
-
-@media (max-width:450px) {
-  .container {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 0.25fr 0.7fr 1.2fr 1.2fr 1.5fr 0.4fr;
-    grid-gap: 6vw;
-   }
+.bild1 {
+  grid-column: 2/5 ;
+  grid-row: 3/4;
+}
+.text2 {
+  grid-column: 2/5;
+  grid-row: 4/5;
+}
+.title2 {
+  grid-column: 2/5;
+  grid-row: 5/6;
+}
+.bild2 {
+  grid-column: 2/5;
+  grid-row: 6/7;
+}
+.text3 {
+  grid-column: 2/5;
+  grid-row: 7/8;
+}
+.karta {
+  grid-column: 3/4;
+  grid-row: 8/9;
+}
+.map {
+  grid-column: 2/5;
+  grid-row: 9/10;
+}
+.fot1 {
+  grid-column: 1/-1;
+  grid-row: 10/11;
+}
+.knappar {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+}
+.imageattack {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.cr7stats {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.attack {
+  grid-column: 4/6;
+  grid-row: 3/4;
+}
+.imagemidfield {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.titlemid {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.imagedefender {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+.goal {
+  grid-column: 4/6;
+  grid-row: 4/5;
+}
+.pogbastats {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.imagegoal {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+.titledef {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.textdef {
+  grid-column: 4/6;
+  grid-row: 5/6;
+}
+.VNLstats {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.titlegoal {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+.DDGstats {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+.textmid {
+  grid-column: 4/6;
+  grid-row: 6/7;
+}
+.fot2 {
+  grid-column: 1/-1;
+  grid-row: 7/8;
+}
 }

@@ -3,6 +3,7 @@ body {
   background-color: rgba(255, 255, 255, 0);
 }
 
+/* This is needed for my header amongst other things */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,6 @@ header {
   justify-content: space-between;
   background-color: rgb(230, 36, 36);
   z-index: 20;
-  filter: rgba(0,0,0,0.2));
 }
 /*header icons*/
 .utd {
@@ -24,16 +24,12 @@ header {
   width: 4vw;
   margin: 0 1vw;
   filter: rgba(0,0,0,0.2));
+  justify-self: center;
 }
 
 .icon:hover {
   filter: drop-shadow(-0.5vw 0.5vw 0.5vw rgba(0,0,0,0.2)) grayscale(1) opacity(0.5);
 }
-
-.infobtn {
-  margin: 0 5vw;
-}
-
 .dropbtn {
   height: 40%;
   width: 40%;
@@ -41,15 +37,17 @@ header {
 
 /*footer*/
 footer {
-  color: inherit;
   background-color: rgb(222, 40, 40);
 }
 
-/*texts*/
+/*titles*/
 #title {
   font-size: 8vw;
-  display: inline;
   margin-top: 1em;
+}
+
+.number1 {
+  text-align: center;
 }
 
 .titleattack {
@@ -64,6 +62,16 @@ footer {
   text-align: center;
 }
 
+h2 {
+  font-size: 4vh;
+  font-style: oblique;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+/*text*/
 .text {
   font-size: 2vw;
   font-family: 'Lato', sans-serif;
@@ -83,23 +91,35 @@ footer {
   text-align: center;
 }
 
-h2 {
-  font-size: 4vh;
-  font-style: oblique;
+.text2 {
+  margin-right: 4em;
 }
 
+.textmid {
+  margin-top: 5em;
+  margin-right: 5em;
+}
+
+.textdef {
+  margin-top: 5em;
+  margin-right: 5em;
+}
+
+.goal {
+  margin-top: 5em;
+  margin-right: 5em;
+}
+
+.attack {
+  margin-right: 5em;
+  margin-top: 2em;
+}
+/* links*/
 a {
   text-decoration: none;
   text-align: center;
 }
 
-.knapp1 {
-  text-decoration-color: black;
-}
-
-.text2 {
-  margin-right: 4em;
-}
 /*main content*/
 
 .news {
@@ -107,15 +127,7 @@ a {
   font-size: 5vw;
   font-family: 'Lato', sans-serif;
 }
-
-h3 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
+/*link-buttons players.html*/
 .button {
   border: solid 4px black;
   width: 10%;
@@ -130,8 +142,25 @@ h2 {
   align-content: space-around;
   justify-content: space-around;
 }
+/*stats*/
 .stats {
-  font-size: 5vh;
+  font-size: 2,5vh;
+}
+.cr7stats {
+  margin-top: 7em;
+  margin-left: 15em;
+}
+.pogbastats {
+  margin-top: 10em;
+  margin-left: 15em;
+}
+.VNLstats {
+  margin-top: 10em;
+  margin-left: 15em;
+}
+.DDGstats {
+  margin-left: 15em;
+  margin-top: 10em;
 }
 /* Drop down style ---------------------------------------- */
 
@@ -211,42 +240,76 @@ h2 {
   margin-top: 5em;
   border: 5px solid #555;
 }
-.textmid {
-  margin-top: 5em;
-  margin-right: 5em;
-}
-.textdef {
-  margin-top: 5em;
-  margin-right: 5em;
-}
-.goal {
-  margin-top: 5em;
-  margin-right: 5em;
-}
-.cr7stats {
-  margin-top: 7em;
-  margin-left: 15em;
-}
-.pogbastats {
-  margin-top: 10em;
-  margin-left: 15em;
-}
-.VNLstats {
-  margin-top: 10em;
-  margin-left: 15em;
-}
-.DDGstats {
-  margin-left: 15em;
-  margin-top: 10em;
-}
-.attack {
-  margin-right: 5em;
-  margin-top: 2em;
-}
-.number1 {
-  text-align: center;
-}
+
+/*map of home ground */
 .map {
   width: 60vw;
   height: 50vh;
+  border:0;
+}
+/* media quarry*/
+@media (max-width:600px) {
+  .utd {
+    width: 11vw;
+    align-self: center;
+  }
+  #title {
+    margin-top: 2.5em;
+  }
+  .bild1 {
+    width: 50vw;
+    margin: 0;
+    justify-self: center;
+    border: solid 5px black;
+  }
+  .text2 {
+    font-size: 3vh;
+    text-align: center;
+    margin: 0;
+  }
+  .bild2 {
+    width: 50vw;
+    margin: 0;
+    justify-self: center;
+    border: 5px solid black;
+  }
+  .text3 {
+    font-size: 3vh;
+    text-align: center;
+    margin: 0;
+  }
+  .smtext {
+    font-size: 3.5vh;
+  }
+  .map {
+    justify-self: center;
+  }
+  .stats {
+    margin: 0;
+  }
+  .imageattack {
+    margin: 0;
+  }
+  .imagemidfield {
+    margin: 0;
+  }
+  .imagedefender {
+    margin: 0;
+  }
+  .imagegoal {
+    margin: 0;
+  }
+  .stats {
+    margin-top: 3.5em;
+  }
+  .text {
+    font-size: 2.5vh;
+    margin: 0;
+    text-align: center;
+  }
+  .button {
+    border: none;
+    color: blue;
+  }
+
 }
