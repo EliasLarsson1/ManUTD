@@ -77,7 +77,6 @@ h3 {
 }
 
 .smtext {
-  margin: 2vw 4vw;
   color: rgb(255, 255, 255);
   background-color: inherit;
   font-size: 2vw;
@@ -86,32 +85,30 @@ h3 {
 }
 
 .textleft {
-  margin-left: 1vw;
-  text-align: center;
+  text-align: left;
 }
 
 .text2 {
-  margin-right: 4em;
+  text-align: left;
 }
 
 .textmid {
-  margin-top: 5em;
-  margin-right: 5em;
+  text-align: left;
+  align-self: center;
 }
 
 .textdef {
-  margin-top: 5em;
-  margin-right: 5em;
+  text-align: left;
+  align-self: center;
 }
 
 .goal {
-  margin-top: 5em;
-  margin-right: 5em;
+  text-align: left;
+  align-self: center;
 }
 
 .attack {
-  margin-right: 5em;
-  margin-top: 2em;
+  text-align: left;
 }
 /* links*/
 a {
@@ -146,20 +143,16 @@ a {
   font-size: 2.5vh;
 }
 .cr7stats {
-  margin-top: 7em;
-  margin-left: 15em;
+
 }
 .pogbastats {
-  margin-top: 10em;
-  margin-left: 15em;
+align-self: center;
 }
 .VNLstats {
-  margin-top: 10em;
-  margin-left: 15em;
+align-self: center;
 }
 .DDGstats {
-  margin-left: 15em;
-  margin-top: 10em;
+align-self: center;
 }
 /* Drop down style ---------------------------------------- */
 
@@ -210,33 +203,26 @@ a {
 
 .imageright {
   width: 30vw;
-  margin-left: 5em
+  justify-self: center;
   }
 .imageleft{
   width: 30vw;
-  margin-left: 5em
+  justify-self: center;
 }
 .imagegoal {
   width: 20vw;
-  margin-left: 5em;
-  margin-top: 6em;
   border: 5px solid #555;
 }
 .imageattack {
   width: 20vw;
-  margin-left: 5em;
   border: 5px solid #555;
 }
 .imagemidfield {
   width: 20vw;
-  margin-left: 5em;
-  margin-top: 5em;
   border: 5px solid #555;
 }
 .imagedefender {
   width: 20vw;
-  margin-left: 5em;
-  margin-top: 5em;
   border: 5px solid #555;
 }
 
@@ -257,25 +243,19 @@ a {
   }
   .bild1 {
     width: 50vw;
-    margin: 0;
     justify-self: center;
     border: solid 5px black;
   }
   .text2 {
     font-size: 3vh;
-    text-align: center;
-    margin: 0;
   }
   .bild2 {
     width: 50vw;
-    margin: 0;
     justify-self: center;
     border: 5px solid black;
   }
   .text3 {
     font-size: 3vh;
-    text-align: center;
-    margin: 0;
   }
   .smtext {
     font-size: 3.5vh;
@@ -284,26 +264,10 @@ a {
     justify-self: center;
   }
   .stats {
-    margin: 0;
-  }
-  .imageattack {
-    margin: 0;
-  }
-  .imagemidfield {
-    margin: 0;
-  }
-  .imagedefender {
-    margin: 0;
-  }
-  .imagegoal {
-    margin: 0;
-  }
-  .stats {
-    margin-top: 3.5em;
+    align-self: center;
   }
   .text {
     font-size: 2.5vh;
-    margin: 0;
     text-align: center;
   }
   .button {

@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-auto-rows: 0.2fr;
+  grid-auto-rows: minmax(100px, auto);
   grid-gap: 2em;
 }
 /*header*/
@@ -93,7 +93,7 @@ header {
 }
 
 .text3 {
-  grid-column: 4/5;
+  grid-column: 4/6;
   grid-row: 5/7;
 }
 
@@ -139,19 +139,19 @@ header {
 
 /*stats*/
 .cr7stats {
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 4/5;
 }
 .pogbastats {
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 5/6;
 }
 .VNLstats {
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 6/7;
 }
 .DDGstats {
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 7/8;
 }
 /*media quarry*/
@@ -159,7 +159,7 @@ header {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
-    grid-auto-rows: 0.2fr;
+    grid-auto-rows: minmax(100px, auto);
     grid-gap: 2vw;
    }
 
