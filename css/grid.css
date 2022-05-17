@@ -2,7 +2,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: minmax(40px, auto);
+  grid-auto-rows: 0.2fr;
   grid-gap: 2em;
 }
 /*header*/
@@ -159,7 +159,7 @@ header {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 1fr 0.5fr 1fr 1fr 0.4fr;
+    grid-auto-rows: 0.2fr;
     grid-gap: 2vw;
    }
 
