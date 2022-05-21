@@ -13,73 +13,73 @@ header {
 
 /*titles*/
 .number1 {
-  grid-column: 3/4;
-  grid-row: 1/2;
-}
-
-.title1 {
   grid-column: 2/5;
   grid-row: 2/3;
 }
 
+.title1 {
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
 .title2 {
   grid-column: 2/5;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 
 .karta {
   grid-column: 3/4;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 
 .titlemid {
   grid-column: 3/4;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 
 .titleattack {
   grid-column: 3/4;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 
 .titlegoal {
   grid-column: 3/4;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 
 .titledef {
   grid-column: 3/4;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 /*images*/
 .bild2 {
   grid-column: 1/3;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 
 .imagemidfield {
   grid-column: 1/3;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 
 .imagegoal {
   grid-column: 1/3;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 
 .imagedefender {
   grid-column: 1/3;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 
 .imageattack {
   grid-column: 1/3;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 
 .bild1 {
   grid-column: 1/3;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 
 .dropbtn {
@@ -89,70 +89,70 @@ header {
 /*text*/
 .text2 {
   grid-column: 4/6;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 
 .text3 {
   grid-column: 4/6;
-  grid-row: 5/7;
+  grid-row: 6/8;
 }
 
 .attack {
   grid-column: 4/6;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 
 .goal {
   grid-column: 4/6;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 
 .textdef {
   grid-column: 4/6;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 
 .textmid {
   grid-column: 4/6;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 /*footer*/
 .fot1 {
   grid-column: 1/-1;
-  grid-row: 8/9;
+  grid-row: 9/10;
 }
 .fot2 {
   grid-column: 1/-1;
-  grid-row: 8/9;
+  grid-row: 9/10;
 }
 /*map*/
 .map {
   grid-column: 2/5;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 
 /*links to players.html*/
 .knappar {
   grid-column: 1/-1;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 
 /*stats*/
 .cr7stats {
   grid-column: 3/4;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 .pogbastats {
   grid-column: 3/4;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 .VNLstats {
   grid-column: 3/4;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 .DDGstats {
   grid-column: 3/4;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 /*media quarry*/
 @media (max-width:600px) {
@@ -169,106 +169,106 @@ header {
    }
 .number1 {
   grid-column: 2/5;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 .bild1 {
   grid-column: 2/5 ;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 .text2 {
   grid-column: 2/5;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 .title2 {
   grid-column: 2/5;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 .bild2 {
   grid-column: 2/5;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 .text3 {
   grid-column: 2/5;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 .karta {
   grid-column: 3/4;
-  grid-row: 8/9;
+  grid-row: 9/10;
 }
 .map {
   grid-column: 2/5;
-  grid-row: 9/10;
+  grid-row: 10/11;
 }
 .fot1 {
   grid-column: 1/-1;
-  grid-row: 10/11;
+  grid-row: 11/12;
 }
 .knappar {
   grid-column: 1/-1;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 .imageattack {
   grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 .cr7stats {
   grid-column: 3/4;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 .attack {
   grid-column: 4/6;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 .imagemidfield {
   grid-column: 1/2;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 .titlemid {
   grid-column: 3/4;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 .imagedefender {
   grid-column: 1/2;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 .goal {
   grid-column: 4/6;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 .pogbastats {
   grid-column: 3/4;
-  grid-row: 4/5;
+  grid-row: 5/6;
 }
 .imagegoal {
   grid-column: 1/2;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 .titledef {
   grid-column: 3/4;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 .textdef {
   grid-column: 4/6;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 .VNLstats {
   grid-column: 3/4;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 .titlegoal {
   grid-column: 3/4;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 .DDGstats {
   grid-column: 3/4;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 .textmid {
   grid-column: 4/6;
-  grid-row: 6/7;
+  grid-row: 7/8;
 }
 .fot2 {
   grid-column: 1/-1;
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 }

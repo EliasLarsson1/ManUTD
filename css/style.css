@@ -21,9 +21,9 @@ header {
 /*header icons*/
 .utd {
   cursor: pointer;
-  width: 4vw;
-  margin: 0 1vw;
+  width: 5%;
   justify-self: center;
+  justify-content: flex-start;
 }
 
 .icon:hover {
@@ -32,6 +32,7 @@ header {
 .dropbtn {
   height: 40%;
   width: 40%;
+  justify-content: flex-start;
 }
 
 /*footer*/
@@ -210,7 +211,7 @@ align-self: center;
   justify-self: center;
 }
 .imagegoal {
-  width: 20vw; 
+  width: 20vw;
   border: 5px solid #555;
 }
 .imageattack {
@@ -237,6 +238,10 @@ align-self: center;
   .utd {
     width: 11vw;
     align-self: center;
+    justify-content: flex-start;
+  }
+  .dropbtn {
+    justify-content: flex-start;
   }
   #title {
     margin-top: 2.5em;
